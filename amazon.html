@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkart</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-color: rgb(233, 223, 223);
+        }
+        header{
+            background-color: white;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            margin-top: 10px;
+
+          
+        }
+        .brand{
+            margin-left: 40px;
+            margin-bottom: 20px;
+            
+        }
+        input{
+            border: 1px solid rgb(140, 171, 179);
+            width:450px;
+            height: 40px;
+            border-radius: 5px;
+            background-color: rgba(226, 243, 250,0.5);
+            font-size: 20px;
+            margin-top: 10px;
+            margin-left: 20px;
+           
+       
+        }
+        span{
+           
+            margin: 20px;
+            cursor: pointer;
+        }
+        .menu{
+            margin-top: 20px;
+        }
+        section{
+           
+            margin: 20px;
+           
+        }
+        .category{
+            display: grid;
+            grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+            width: 100%;
+            height: 200px;
+          
+            
+            background-color: white;
+            
+        }
+        .product{
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: 18px;
+           
+        }
+        .sale{
+            margin:20px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <img src="../public/image/flipkart.jpg" width="130%" height="60px">
+        </div>
+        <div>
+            <input type="search" placeholder="Search for products,Brands and More.">
+        </div>
+        <div class="menu">
+            <span class="bi bi-person-circle">   Login</span>
+            <span class="bi bi-cart"></span>
+            <span class="bi bi-shop-window" ></span>
+            <span class="bi bi-three-dots-vertical"></span>
+        </div>
+    </header>
+    <section>
+        <div>
+            <div class="category">
+                <div class="product">
+                    <img src="../public/image/p1.jpg" width="50%" height="70px">
+                    <p>Mobile & Tablates</p>
+                </div>
+                <div class="product">
+                    <img src="../public/image/p2.jpg" width="50%" height="70px">
+                    <p>Tv & Electronics</p>
+                </div> 
+                <div class="product">
+                    <img src="../public/image/p3.jpg" width="50%" height="70px">
+                    <p>Appliances</p>
+                </div>
+                 <div class="product">
+                    <img src="../public/image/p4.jpg" width="50%" height="70px">
+                    <p>Fashion</p>
+                </div>
+                 <div class="product">
+                    <img src="../public/image/p5.jpg" width="50%" height="70px">
+                    <p>Beauty</p>
+                </div>
+                 <div class="product">
+                    <img src="../public/image/p6.jpg" width="50%" height="70px">
+                    <p>Home & Kitchen</p>
+                </div> 
+                <div class="product">
+                    <img src="../public/image/p7.jpg" width="50%" height="70px">
+                    <p>Furniture</p>
+                </div>
+                 <div class="product">
+                    <img src="../public/image/p8.jpg" width="50%" height="70px">
+                    <p>Flights</p>
+                </div>
+                
+            </div>
+            <div class="sale">
+                <img src="../public/image/sale1.jpg" width="100%" height="300px">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
